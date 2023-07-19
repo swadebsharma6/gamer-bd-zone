@@ -337,3 +337,43 @@ margin-top: 20px;
   font-size: 24px;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .menu ul
+    
+    {
+      flex-direction: column;
+    }
+
+    /* banner-container */
+    .banner-container{
+      flex-direction: column;
+    }
+    .content{
+      width: 100%;
+      margin: 5px;
+      padding: 10px;
+    }
+    .image-container{
+      margin: 10px;
+      padding: 10px;
+    }
+    .image-container img{
+      width: 100%;
+    }
+}
