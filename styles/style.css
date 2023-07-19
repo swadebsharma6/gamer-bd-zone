@@ -421,7 +421,8 @@ margin-top: 20px;
     .download-section{
       margin: 10px;
       padding: 10px;
-      
+      margin-bottom: 720px;
+      padding-bottom: 20px;
     }
     .download-container{
       flex-direction: column;
@@ -439,6 +440,22 @@ margin-top: 20px;
       width: 100%;
       margin: 0;
       padding: 0;
+    }
+
+    /* career section response */
+    .career-section{
+      width: 90%;
+    }
+    .career-container{
+      flex-direction: column;
+      margin: 10px;
+      padding: 10px;
+    }
+    .career-img img{
+      width: 100%;
+    }
+    .career-content{
+      padding: 10px;
     }
    
 }
