@@ -71,8 +71,6 @@ nav {
   );
   width: 901px;
   height: 700px;
-  /* border: 1px solid goldenrod; */
-  /* text-align: center; */
 }
 .content{
     padding-left: 240px;
@@ -88,7 +86,7 @@ nav {
   text-transform: uppercase;
 }
 .goat-style {
-  /* text-align: center; */
+
   font-size: 95px;
   font-style: normal;
   font-weight: 800;
@@ -106,5 +104,50 @@ nav {
 .image-container{
     margin-right: 200px;
     margin-left: 80px;
-    /* border: 1px solid gray; */
+    
+}
+
+
+/* gammer section style */
+.gamer-section{
+    padding: 10px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gammer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamer-img{
+    width: 864px;
+    height: 480px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+.gammer-content{
+    margin-right: 200px;
+    margin-left: 52px;
+    text-align: right;
+    padding: 5px;
+}
+.gamer-title{
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gamer-details{
+color: #534C64;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.our-purpose{
+    padding: 20px;
 }
