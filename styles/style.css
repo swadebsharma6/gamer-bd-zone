@@ -214,3 +214,44 @@ nav {
     ),
     url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+
+/* download section */
+.download-section {
+  height: 725px;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 470px;
+  margin-right: 200px;
+}
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.download-img img {
+  width: 634px;
+  height: 650px;
+  
+}
+.download-content{
+  width: 341px ;
+  padding-bottom: 250px;
+
+}
+.download-title {
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.small-img img{
+  width: 300px;
+  height: 400px;
+}
+
+.small-img{
+  position: relative;
+  bottom: 150px;
+  left: -120px;
+}
