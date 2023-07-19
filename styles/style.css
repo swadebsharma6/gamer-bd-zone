@@ -511,3 +511,42 @@ margin-top: 20px;
     }
    
 }
+
+/* responsive for medium device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+  .nav-container{
+    flex-direction: column;
+  }
+  .banner-container{
+    flex-wrap: wrap;
+  }
+  .gammer-container{
+    flex-direction: column;
+  }
+  .gamer-section{
+    margin-bottom: 450px;
+  }
+  .gamer-img{
+    margin: 10px;
+  }
+  .card-container{
+    flex-direction: column;
+    width: 90%;
+  }
+  .games-section{
+    margin-bottom: 950px;
+  }
+  .career-section{
+    margin: 10px;
+  }
+  .career-container{
+    flex-direction: column;
+    margin: 10px;
+  }
+  .career-content{
+    padding: 10px;
+  }
+  .career-img img{
+    width: 100%;
+  }
+}
