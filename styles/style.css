@@ -488,5 +488,26 @@ margin-top: 20px;
     .career-content{
       padding: 10px;
     }
+
+    /* games feature response */
+    .games-feature-section{
+      width: 100%;
+    }
+    .container{
+      width: 100%;
+    }
+    .feature-container{
+      flex-direction: column;
+    }
+
+    /* footer */
+    .footer-container{
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+    .options ul{
+      flex-wrap: wrap;
+    }
    
 }
