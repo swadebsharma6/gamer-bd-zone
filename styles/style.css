@@ -201,6 +201,28 @@ nav {
 .card {
   height: 484px;
   width: 342px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.play-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .play-icon{
+  opacity: 1;
 }
 
 .card img {
@@ -210,7 +232,7 @@ nav {
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .card img:hover {
-  border: 1px solid gray;
+  border: 3px solid #FF42A5;
   border-radius: 16px;
   background: linear-gradient(
       0deg,
